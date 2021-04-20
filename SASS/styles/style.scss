@@ -1,0 +1,10 @@
+//HOW TO IMPORT 
+@import "./variables";
+@import "./header";
+
+
+.contact {
+    @include method1(row );
+    @extend header;
+    width: 100% - 5%;
+}
