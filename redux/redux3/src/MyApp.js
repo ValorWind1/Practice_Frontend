@@ -1,18 +1,16 @@
-import React from "react"
+import React,{useState} from "react"
 import {connect} from "react-redux"
+import "./styles/style.css"
 
 const MyApp = (props) => {
 
-    const Array1 = props.ar
-    console.log("ARray",props.ar)
-
-
 
     return (
-        <div>
-            <h1>hi</h1>
-            <h3 onClick={props.spreadIt}>Reduce them</h3>
+        <div className="divisione">
+            <p>Your numbers : {`${props.ar}`}</p>
+            <button onClick={props.spreadIt}>Reduce them</button>
             <h1>RESULT: {props.n}</h1>
+            
         </div>
     )
 }

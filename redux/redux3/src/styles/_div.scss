@@ -1,0 +1,19 @@
+@mixin margin {
+    margin-top: 20px;
+}
+
+
+
+
+div button {
+    @include margin();
+    background: $button1;
+    &:hover{
+        background-color: aquamarine;
+    }
+}
+
+div h1 {
+    @include margin();
+    color : $textColor
+}

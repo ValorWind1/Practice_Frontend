@@ -1,0 +1,19 @@
+div button {
+  margin-top: 20px;
+  background: #255e4f;
+}
+
+div button:hover {
+  background-color: aquamarine;
+}
+
+div h1 {
+  margin-top: 20px;
+  color: #c421ae;
+}
+
+body {
+  background-color: aliceblue;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

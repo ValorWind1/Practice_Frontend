@@ -1,0 +1,13 @@
+@import "../styles/variables";
+@import "../styles/div";
+
+
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+div p {
+    @extend .div;
+}
+
