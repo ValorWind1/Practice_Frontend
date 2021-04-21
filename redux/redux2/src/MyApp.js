@@ -4,6 +4,7 @@ import {connect} from "react-redux"
 const MyApp = (props) => {
 
 console.log("SUM",props.s)
+console.log("ARRAy",props.arr)
 
     return(
         <div>
