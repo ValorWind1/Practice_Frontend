@@ -1,4 +1,29 @@
 img {
-    width: 15%;
-    height: 15%;
+    width: 13%;
+    height: 13%;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.Header{
+    color: rgb(14, 39, 71);
+    text-align: center;
+    background-image: url(./resources/bluerose.png);
+    background-repeat: no-repeat;
+}
+
+.entireDiv{
+    background-image: url(https://fullerlife.com/wp-content/uploads/2021/03/background-texture-blue-watercolor_1035-6636.jpg);  
+    background-size: cover; 
+}
+
+.footer{
+    background: url(https://cdn3.volusion.com/tyzky.ynqff/v/vspfiles/photos/134-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 0%;
 }
