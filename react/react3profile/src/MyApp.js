@@ -2,29 +2,26 @@ import React from "react";
 import me from "./resources/profile.JPG";
 import "./MyApp.css";
 import Header from "./components/Header"
+import CareerGoal from "./components/CareerGoal"
+import Experience from "./components/Experience"
 
 const MyApp = () => {
 
 
     return(
-        <div>
+
             <div className="entireDiv">
             <h1 className="Header"> <Header /></h1>
-            <h3>Carrer Goal</h3>
-            <img src={me}alt="me"/>
-            <h3>Experience</h3>
-            <h3>Programming Skills</h3>
-
             
-
-        </div>
-
-        <div>
+            <CareerGoal />
+            <img src={me}alt="me" style={{opacity:"0.9",marginLeft: '50px',position:'relative',bottom: '220px'}}/>
+            <Experience />
+            <h3>Programming Skills</h3>  
             <footer className="footer"> 
                 <h1>Footer</h1>
             
              </footer>
-        </div>
+        
                     
         </div>
 

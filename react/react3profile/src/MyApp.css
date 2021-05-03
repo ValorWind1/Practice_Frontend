@@ -8,22 +8,31 @@ body{
     
 }
 
+*{
+    margin : 0 ;
+    padding : 0;
+}
+
 .Header{
     color: rgb(14, 39, 71);
     text-align: center;
-    background-image: url(./resources/bluerose.png);
+    background-image: url(https://i.ytimg.com/vi/Lun0noDqNik/maxresdefault.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
 }
 
 .entireDiv{
-    background-image: url(https://fullerlife.com/wp-content/uploads/2021/03/background-texture-blue-watercolor_1035-6636.jpg);  
+    background-image: url(https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2021/03/beach-photography-tips-8.jpg?resize=1500%2C842&ssl=1);  
     background-size: cover; 
+    z-index: 1;
 }
 
 .footer{
-    background: url(https://cdn3.volusion.com/tyzky.ynqff/v/vspfiles/photos/134-2.jpg);
+    background: url(https://mk0yonderconsul4hgxk.kinstacdn.com/wp-content/uploads/2020/07/Blue-ocean-blog-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     margin-top: 0%;
+   
 }
