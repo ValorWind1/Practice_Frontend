@@ -63,3 +63,29 @@ const oddOrEven = (...args) => {
 }
 
 oddOrEven(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+
+//The outer loop always executes first, and the inner loop executes inside the outer loop each time the outer loop executes once
+const arangeStars = (z) => {
+    var star = " "
+    for (let i = 0 ; i < z; i ++) {        
+        for (let x = 0 ; x < i; x ++){
+            star = star+("*")
+        }
+        console.log(star)
+        star =" "
+    }   
+}
+
+arangeStars(4)
+
+
+const SumMultiples = (n) => {
+    var sum = 0 
+    for ( let i = 0 ; i <= n ; i ++) {     
+            if(i%3 === 0 || i%5 === 0 ) {
+                console.log(sum += i)     
+        }        
+    }
+}
+
+SumMultiples(1000)
