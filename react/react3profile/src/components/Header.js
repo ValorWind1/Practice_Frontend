@@ -7,7 +7,7 @@ const Header = (props) => {
 
     return (
         <div>
-            <h3>Daniel Leygthon</h3>
+            <h1>Daniel Leygthon</h1>
             <a className="bi bi-github" href="https://github.com/ValorWind1">Github</a>
             <a href={resume}>Resume</a>
             <a href="https://www.linkedin.com/in/daniel-leyghton-598b33156/">Linkedln</a>

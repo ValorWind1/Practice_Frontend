@@ -17,4 +17,33 @@ a{
     position: relative;
     left: 1000px;
     top: 100px;
+   
 }
+
+
+.programing {
+    color : white;
+    border : 1px solid white; 
+    text-align: left;
+    padding: 50px;
+    background: url(https://wallpapertag.com/wallpaper/full/7/6/7/207072-download-grey-backgrounds-2560x1440-for-windows.jpg);
+    border-spacing: 5px;
+    
+}
+
+table, th, td {
+    border: 1px solid rgb(164, 170, 185);
+    position: relative;
+    left:300px;
+  }
+
+.h1 {
+      width: 80%;
+      font-weight: bold;
+      text-align: center;
+}
+  .h2{
+      width: 100%;
+      font-weight: bold;
+      text-align: center;
+  }

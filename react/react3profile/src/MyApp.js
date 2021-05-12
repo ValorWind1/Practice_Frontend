@@ -4,6 +4,7 @@ import "./MyApp.css";
 import Header from "./components/Header"
 import CareerGoal from "./components/CareerGoal"
 import Experience from "./components/Experience"
+import Programming from "./components/Programming"
 
 const MyApp = () => {
 
@@ -16,9 +17,9 @@ const MyApp = () => {
             <CareerGoal />
             <img src={me}alt="me" style={{opacity:"0.9",marginLeft: '50px',position:'relative',bottom: '220px'}}/>
             <Experience />
-            <h3>Programming Skills</h3>  
+            <Programming/>  
             <footer className="footer"> 
-                <h1>Footer</h1>
+                <h1 style= {{color:"black"}}>Contact info</h1>
             
              </footer>
         

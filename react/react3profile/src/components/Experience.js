@@ -9,7 +9,8 @@ const Experience = () => {
         position : "relative",
         bottom : "800px",
         left: "500px",
-        fontSize: "20px"
+        fontSize: "30px",
+        
     } 
 
     return (
